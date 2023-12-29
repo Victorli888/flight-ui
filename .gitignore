@@ -1,0 +1,106 @@
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.out
+*.so
+
+# Ignore dependencies
+/node_modules/
+/bower_components/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.log.*
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore application-specific files and directories
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/
+/.idea/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore packaging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignore local configuration files
+/.vscode/
+/.idea/
+
+# Ignore Jekyll
+/_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore compiled Ruby bytecode
+*.rbt
+
+# Ignore Sass cache
+*.sass-cache/
+
+# Ignore Composer files
+/vendor/
+
+# Ignore SQLite database
+*.sqlite
+
+# Ignore Meteor local build
+.meteor/local/
+
+# Ignore yarn.lock file
+yarn.lock
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore coverage output
+coverage/
+
+# Ignore Jekyll build directory
+_site/
+
+# Ignore RSpec test reports
+/spec/reports/
+
+# Ignore RubyMine project files
+.idea/
+
+# Ignore sensitive or environment-specific information
+.env
