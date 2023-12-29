@@ -1,0 +1,17 @@
+# This is the bun compiler project settings
+
+# Reduce memory usage at the cost of performance
+smol = false
+
+# Set logging level
+loglevel = "debug"
+
+# Telemetry, let not get ganked
+telemetry = false
+
+# Install configuration
+[install]
+optional = true
+dev = true
+# Cuz we lazy lets auto load dependencies
+auto = true
