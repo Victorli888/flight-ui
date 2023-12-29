@@ -41,7 +41,7 @@ Follow these steps to get development environment running.
 * Install dependencies:
 
     ```bash
-    npm install
+    bun install
     ```
 
 * Run development server:
@@ -50,4 +50,4 @@ Follow these steps to get development environment running.
     bun dev
     ```
 
-* Now open your browser and go to `http://localhost:8080`.
+* Now open your browser and go to `http://localhost`.
